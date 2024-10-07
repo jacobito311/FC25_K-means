@@ -1,4 +1,4 @@
-# Proyecto de Clustering del videojuego FC25 usando K-means y 3 métricas (distancias) distintas.
+# Proyecto de Clustering en el videojuego FC25 usando K-means y 3 métricas (distancias) distintas.
 Trabajamos usando una base de datos con todos los futbolistas (masculinos y femeninos) del popular juego FC25, de la empresa EA Sports (antes conocido como FIFA). Dicha base de datos la obtuvimos de la plataforma Kaggle, donde todavía se encuentra disponible. Luego, manipulamos manualmente los datos para eliminar las columnas de datos despreciables, es decir, aquellos que no nos aportaban información relevante, o peor aún, entorpecían nuestro análisis.
 ## Primera parte: EDA
 1. **Importación de librerías y carga de datos:**  
@@ -23,7 +23,7 @@ Trabajamos usando una base de datos con todos los futbolistas (masculinos y feme
    Finalmente, identificamos los jugadores con las mejores calificaciones dentro de cada liga, así como los equipos con los OVR medios más altos. Visualizamos los 30 equipos más destacados en un gráfico de barras, lo que nos permitió comprender mejor cómo se distribuyen los mejores jugadores entre los clubes.
 
 ## Segunda parte: Implementación del Algoritmo y Visualización de Resultados
-En el proyecto, implementamos el algoritmo K-means con diferentes métricas de distancia para agrupar datos de interés. Cada uno de los integrantes del equipo trabajó con una métrica diferente: la distancia Euclidiana, la distancia de Manhattan, y la distancia de Mahalanobis.
+En el proyecto, implementamos el algoritmo K-means con diferentes métricas de distancia para agrupar datos de interés. Cada uno de los integrantes del equipo trabajó con una métrica diferente: la distancia Euclidiana, la distancia de Manhattan (L1), y la distancia de Mahalanobis.
 
 Tras cargar los datos, procedimos a realizar una limpieza y preparación. Esto incluyó la imputación de valores faltantes, principalmente en las columnas relacionadas con los atributos de los porteros, donde los valores faltantes se reemplazaron por ceros.
 
