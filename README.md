@@ -1,5 +1,5 @@
 # Proyecto de Clustering del videojuego FC25 usando K-means y 3 métricas (distancias) distintas.
-Trabajamos usando la base de datos con todos los futbolistas (masculinos y femeninos) del popular juego FC25, de la empresa EA Sports (antes conocido como FIFA). Dicha base de datos la obtuvimos de la plataforma Kaggle, donde todavía se encuentra disponible. Luego, manipulamos manualmente los datos para eliminar las columnas despreciables, es decir, aquellas que no nos aportaban información relevante, o peor aún, entorpecían nuestro análisis.
+Trabajamos usando una base de datos con todos los futbolistas (masculinos y femeninos) del popular juego FC25, de la empresa EA Sports (antes conocido como FIFA). Dicha base de datos la obtuvimos de la plataforma Kaggle, donde todavía se encuentra disponible. Luego, manipulamos manualmente los datos para eliminar las columnas despreciables, es decir, aquellas que no nos aportaban información relevante, o peor aún, entorpecían nuestro análisis.
 ## Primera parte: EDA
 1. **Importación de librerías y carga de datos:**  
    El primer paso fue importar las librerías necesarias para el manejo y visualización de los datos. Utilizamos librerías populares como `numpy` para operaciones de álgebra lineal, `pandas` para la manipulación de dataframes, y `matplotlib` y `seaborn` para la generación de gráficos.
