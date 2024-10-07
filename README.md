@@ -22,7 +22,7 @@
 7. **Mejores jugadores y equipos:**  
    Finalmente, identificamos los jugadores con las mejores calificaciones dentro de cada liga, así como los equipos con los OVR medios más altos. Visualizamos los 30 equipos más destacados en un gráfico de barras, lo que nos permitió comprender mejor cómo se distribuyen los mejores jugadores entre los clubes.
 
-## Segunda parte: Implementación del Algoritmo y visualización de resultados
+## Segunda parte: Implementación del Algoritmo y Visualización de Resultados
 En el proyecto, implementamos el algoritmo K-means con diferentes métricas de distancia para agrupar datos de interés. Cada uno de los integrantes del equipo trabajó con una métrica diferente: la distancia Euclidiana, la distancia de Manhattan, y la distancia de Mahalanobis.
 
 Tras cargar los datos, procedimos a realizar una limpieza y preparación. Esto incluyó la imputación de valores faltantes, principalmente en las columnas relacionadas con los atributos de los porteros, donde los valores faltantes se reemplazaron por ceros.
